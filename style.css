@@ -129,3 +129,93 @@ footer a:hover {
     height: 300px;
   }
 }
+/* ---- Page layout additions (Privacy Policy) ---- */
+
+.aura--small {
+  width: 320px;
+  height: 320px;
+  filter: blur(34px);
+  opacity: 0.9;
+}
+
+.content--page {
+  justify-content: flex-start;
+  padding-top: 28px;
+  overflow-y: auto;
+  overflow-x: hidden;
+}
+
+.topbar {
+  width: min(860px, 100%);
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 28px;
+}
+
+.topbar__spacer {
+  flex: 1;
+}
+
+.page-title {
+  font-size: 34px;
+  font-weight: 600;
+  letter-spacing: -0.02em;
+  margin-bottom: 6px;
+}
+
+.page-subtitle {
+  font-size: 14px;
+  opacity: 0.6;
+  margin-bottom: 18px;
+}
+
+.card {
+  width: min(860px, 100%);
+  text-align: left;
+  padding: 22px 20px;
+  border-radius: 18px;
+  background: rgba(255, 255, 255, 0.06);
+  border: 1px solid rgba(255, 255, 255, 0.10);
+  backdrop-filter: blur(12px);
+}
+
+.card h2 {
+  font-size: 15px;
+  margin-top: 18px;
+  margin-bottom: 8px;
+  letter-spacing: -0.01em;
+}
+
+.card p {
+  font-size: 14px;
+  line-height: 1.75;
+  opacity: 0.86;
+}
+
+.muted {
+  opacity: 0.55 !important;
+  font-size: 13px !important;
+}
+
+.link {
+  color: rgba(255, 255, 255, 0.92);
+  text-decoration: none;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.25);
+  padding-bottom: 2px;
+}
+
+.link:hover {
+  opacity: 0.85;
+}
+
+.footer--page {
+  position: static;
+  margin-top: 18px;
+  padding-bottom: 18px;
+}
+
+.dot {
+  margin: 0 10px;
+  opacity: 0.35;
+}
